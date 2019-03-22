@@ -1,1 +1,2 @@
-<h1></h1>
+<h1><%= @song.title %></h1>
+<% link_to "Delete song", song_path(@song), method: :delete %>
